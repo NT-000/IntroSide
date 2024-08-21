@@ -1,0 +1,32 @@
+body {
+    margin-left: 20px;
+    background-color: rgb(221, 223, 238);
+}
+
+.allBoxes {
+    background-color: aquamarine;
+}
+
+.hobbyBoxH {
+    display:flex start;
+    background-color: white;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.signSTR {
+    border: 2px solid black;
+ 
+}
+
+.picFrame {
+    border: 2px solid black;
+}
+
+.hobbySign {
+    background-color: aqua;
+}
+
+.btnChange {
+    border: 2px solid black;
+}
