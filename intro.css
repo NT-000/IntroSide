@@ -85,7 +85,7 @@ body {
     background-color: black;
 }
 
-.changeToggle {
+/*.changeToggle {
         width: 100%;
         min-height: 100vh;
         position: relative;
@@ -103,7 +103,7 @@ body {
         );
         background-size: cover;
         background-attachment: fixed;
-}
+}*/
 
 .changeBtn {
     height: 50px;
