@@ -5,6 +5,7 @@
 
 
 function chColor1() {
-    document.getElementById("body").classList.toggle("changeToggle");}
+    document.getElementById('body').classList.toggle("changeToggle");}
+   //document.getElementById('outerFrame').classList.toggle("changeToggle");}
 
 
