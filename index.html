@@ -3,70 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduksjonsside</title>
-    <link rel="stylesheet" href="intro.css" />
-    <script src="intro.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body id="body">
-    <h1>Nicolai</h1>
-    <p>Jeg heter Nicolai. Jeg er 31 år og bor i Moss.</p>
-
- <div class="allBoxes">
-    
-  <div class="hobbyBoxH">
-    <div id="hobbyBox">
-        <h2>Hobbyer</h2>
-        <div class="hobbyInner">
-            <img src="juve.png">
-            <img src="politikk.jpeg">
-            <img src="teknologi.jpeg">
-            <img src="historie.jpeg">
-            <img src="poli.png">
-
-        </div>
-        <ul>
-            <li>Fotball</li>
-            <li>Politikk</li>
-            <li>Teknologi</li>
-            <li>Geografi</li>
-            <li>Historie</li>
-
-        </ul>
-    </div>
-  </div>
-
-    <div class="signSTR">
-        <h2 class="h2">Signaturstyrker</h2>
-        <ul>
-            <li>Ærlighet</li>
-            <li>Vennlighet</li>
-            <li>Rettferdighet</li>
-            <li>Dømmekraft</li>
-            <li>Kjærlighet</li>
-        </ul>
-    </div>
-<div class="outerFrame">
-    <div class="picFrame">Foto</div>
-</div>
-
-</div>
-    <div class="btn">
-    <button id="changeBtn" onclick="SetRandNum();">Skift bakgrunn</button>
-    </div>
-
-    <footer class="footer">
-        <div class="juve">
-            <a href="https://www.juventus.com/">
-        <img src="juve.png" alt="Juventus FC logo">
-            </a>
-        </div>
-
-        <!--<div class="">
-            
-        </div>-->
-
-    </footer>
-
-
+<body onload="updateView()">
+    <div id="app"></div>
+    <script src="js.js"></script>
 </body>
 </html>
